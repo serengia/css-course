@@ -124,13 +124,17 @@ Browsers apply their default styles (called **user agent styles**) if no CSS is 
 ## 4. Box Model in CSS
 
 - **What is the Box Model?** – Every HTML element is a box with four sides: `top`, `right`, `bottom`, `left`:
+
   - **Content** – The actual text or image inside an element.
   - **Padding** – Space around the content.
   - **Border** – The outer edge surrounding the padding.
   - **Margin** – Space between elements.
+
     ![My Image](./course-images/css-box-model.png)
+
 - **Use** `box-sizing: border-box; ` to include padding & border in total width/height.
-  ![My Image](./course-images/css-box-model-box-sizing.png)
+
+![My Image](./course-images/css-box-model-box-sizing.png)
 
 ## 5. CSS Colors & Backgrounds
 
