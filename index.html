@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites Restaurant - Love at First Bite</title>
+    <meta name="description"
+        content="Delicious Bites is a modern Restaurant where passion for food meets the art of culinary excellence.">
+
+    <style>
+        body {
+            padding: 40px;
+        }
+
+        .divider {
+            height: 2px;
+            background-color: #ddd;
+            border: none;
+            margin: 40px 0;
+        }
+
+        table {
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        table,
+        th,
+        td {
+            border: solid 1px #ddd;
+        }
+
+        th,
+        td {
+            padding: 6px 12px;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #f7f7f7;
+        }
+
+        .full label,
+        .full input {
+            width: 70%;
+            display: block;
+            padding: 12px 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Comments -->
+    <!-- Using semantic HTML elements -->
+
+    <header>
+        <div>
+            <img src="delicious-bites-logo.png" alt="Delicious bites logo" style="height: 80px">
+        </div>
+        <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Recipe</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+
+        <ul>
+            <li><a href="#">Contact Us</a> </li>
+            <li><a href="#">Order</a></li>
+        </ul>
+
+    </header>
+
+    <main>
+        <section id="hero">
+            <!-- HERO SECTION -->
+            <!-- FOCUS: Working with media file (Video, audio)  -->
+            <video src="media/cooking.mp4" height="300" controls autoplay muted loop></video>
+            <!-- <audio src="media/ambient-tech.mp3" controls></audio> -->
+
+            <div>
+                <h1>Delicious Bites Restaurant - Love at first bite!</h1>
+                <p>Welcome to Delicious Bites, where passion for food meets the art of culinary excellence.</p>
+                <p>Since our inception, we've been dedicated to creating unforgettable dining experiences, combining
+                    fresh ingredients, bold flavors, and a warm, inviting atmosphere.</p>
+
+                <button>Order</button>
+            </div>
+            <hr class="divider">
+        </section>
+        <section id="menu">
+            <!-- MENU SECTION -->
+            <!-- Working with ul nested content -->
+            <!-- HTML Tables -->
+
+            <ul>
+                <li>
+                    <div>
+                        <img src="images/lobster.jpg" alt="Lobster Thermidor" width="150">
+                    </div>
+                    <div>
+                        <div>
+                            <h3>Lobster Thermidor</h3>
+                            <span>$29.99</span>
+                        </div>
+                        <div>
+                            <p>A luxurious French dish featuring tender lobster in a rich, creamy mustard sauce, topped
+                                with cheese and baked to perfection.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/sushi.jpg" alt="Lobster Thermidor" width="150">
+                    </div>
+                    <div>
+                        <div>
+                            <h3>Sushi Platter</h3>
+                            <span>$24.99</span>
+                        </div>
+                        <div>
+                            <p>A delightful assortment of fresh sushi and sashimi, including salmon, tuna, and shrimp,
+                                served with soy sauce, wasabi, and pickled ginger.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <br>
+            <br>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">Dish Name</th>
+                        <th>Price</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <!-- Appetizers -->
+                    <tr>
+                        <td rowspan="4">Appetizers</td>
+                        <td>Garlic Bread</td>
+                        <td>$4.99</td>
+                        <td>Freshly baked bread with garlic butter.</td>
+                    </tr>
+                    <tr>
+                        <td>Caesar Salad</td>
+                        <td>$7.49</td>
+                        <td>Crisp romaine lettuce with Caesar dressing.</td>
+                    </tr>
+                    <tr>
+                        <td>Mozzarella Sticks</td>
+                        <td>$6.99</td>
+                        <td>Golden-fried mozzarella served with marinara.</td>
+                    </tr>
+                    <tr>
+                        <td>Spring Rolls</td>
+                        <td>$5.99</td>
+                        <td>Veggie-filled rolls with sweet chili sauce.</td>
+                    </tr>
+                    <!-- Main courses -->
+                    <tr>
+                        <td rowspan="4">Main courses</td>
+                        <td>Grilled Chicken</td>
+                        <td>$14.99</td>
+                        <td>Juicy chicken breast with herbs and spices.</td>
+                    </tr>
+                    <tr>
+                        <td>Spaghetti Bolognese</td>
+                        <td>$12.99</td>
+                        <td>Pasta in a rich, slow-cooked meat sauce.</td>
+                    </tr>
+                    <tr>
+                        <td>Beef Steak</td>
+                        <td>$19.99</td>
+                        <td>Tender, seasoned steak served with mashed potatoes.</td>
+                    </tr>
+                    <tr>
+                        <td>Vegetarian Pizza</td>
+                        <td>$11.99</td>
+                        <td>Wood-fired pizza topped with fresh veggies and cheese.</td>
+                    </tr>
+                    <!-- Deserts -->
+                    <tr>
+                        <td rowspan="4">Desserts</td>
+                        <td>Chocolate Lava Cake</td>
+                        <td>$6.99</td>
+                        <td>Warm cake with molten chocolate filling.</td>
+                    </tr>
+                    <tr>
+                        <td>Cheesecake</td>
+                        <td>$5.99</td>
+                        <td>Creamy cheesecake with a graham cracker crust.</td>
+                    </tr>
+                    <tr>
+                        <td>Fruit Salad</td>
+                        <td>$4.99</td>
+                        <td>Freshly cut seasonal fruits.</td>
+                    </tr>
+                    <tr>
+                        <td>Tiramisu</td>
+                        <td>$6.49</td>
+                        <td>Italian coffee-flavored layered dessert.</td>
+                    </tr>
+                    <!-- Drinks -->
+                    <tr>
+                        <td rowspan="4">Drinks</td>
+                        <td>Lemonade</td>
+                        <td>$3.99</td>
+                        <td>Freshly squeezed lemon juice with a hint of mint.</td>
+                    </tr>
+                    <tr>
+                        <td>Iced Coffee</td>
+                        <td>$4.49</td>
+                        <td>Chilled coffee served over ice, with or without cream.</td>
+                    </tr>
+                    <tr>
+                        <td>Smoothie</td>
+                        <td>$5.99</td>
+                        <td>Choice of mango, strawberry, or mixed berry.</td>
+                    </tr>
+                    <tr>
+                        <td>Sparkling Water</td>
+                        <td>$2.99</td>
+                        <td>Lightly carbonated water with a twist of lime.</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+            <hr class="divider">
+        </section>
+
+        <section id="recipe">
+            <!-- RECIPE TITLE -->
+            <!-- Working with iframes -->
+            <!-- <iframe src="https://jamesserengia.com" width="600px" height="300px" frameborder="0"></iframe> -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Prj3b0ExrO4?si=DomoX0cJ3FoOwuVT"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+            <br><br>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cVaPtE3M1Oc?si=Fmor8dGMlaEVArDM"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
+
+            <hr class="divider">
+        </section>
+
+        <section id="contact-us">
+            <!-- CONTACT US -->
+            <!-- HTML form, and different form inputs -->
+            <h2>HTML Form</h2>
+            <form>
+                <fieldset>
+                    <legend>Personal info</legend>
+                    <div class="full">
+                        <label for="fullName">Full Name</label>
+                        <input type="text" name="fullName" id="fullName" placeholder="Joe Doe">
+                    </div>
+                    <div class="full">
+                        <label for="email">Your Email</label>
+                        <input type="email" name="email" id="email" placeholder="johndoe@gmail.com">
+                    </div>
+                    <div class="full">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" name="phone" id="phone" placeholder="000-000-0000">
+                    </div>
+
+                </fieldset>
+                <br><br>
+
+                <fieldset>
+                    <legend>Choose cities you have visited</legend>
+
+                    <div>
+                        <input type="checkbox" name="city" value="Nairobi" id="nairobi">
+                        <label for="nairobi">Nairobi</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="city" value="London" id="london">
+                        <label for="london">London</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="city" value="Vienna" id="vienna">
+                        <label for="vienna">Vienna</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="city" value="Sydney" id="sydney">
+                        <label for="sydney">Sydney</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="city" value="Other" id="Other">
+                        <label for="Other">Other</label>
+                    </div>
+
+                </fieldset>
+                <br><br>
+
+                <fieldset>
+
+                    <div>
+                        <label for="c-o-b">Select country of Birth</label>
+                        <select name="countryOfBirth" id="c-o-b">
+                            <optgroup label="North America">
+                                <!-- North America -->
+                                <option value="USA">United States</option>
+                                <option value="Panama">Panama</option>
+                                <option value="Canada" selected>Canada</option>
+                            </optgroup>
+
+                            <optgroup label="Africa">
+                                <!-- Africa -->
+                                <option value="Kenya">Kenya</option>
+                                <option value="Egypt">Egypt</option>
+                                <option value="Rwanda">Rwanda</option>
+                            </optgroup>
+
+                            <optgroup label="Europe">
+
+                                <!-- Europe -->
+                                <option value="Germany">Germany</option>
+                                <option value="UK">United Kingdom</option>
+                                <option value="France">France</option>
+                            </optgroup>
+
+                            <optgroup label="Other">
+                                <!-- Others -->
+                                <option value="Other">Other</option>
+                            </optgroup>
+
+                        </select>
+                    </div>
+                </fieldset>
+
+                <br><br>
+
+                <fieldset>
+                    <!-- <legend>City of origin</legend> -->
+                    <div>
+                        <label for="c-o-o">City of origin</label>
+                        <input type="text" id="c-o-o" list="city-of-origin">
+                        <datalist id="city-of-origin">
+                            <option value="Tokyo">
+                            <option value="Dubai">
+                            <option value="Madrid">
+                            <option value="Toronto">
+                            <option value="Sydney">
+                            <option value="Other">
+
+                        </datalist>
+                    </div>
+                </fieldset>
+                <br><br>
+
+                <div>
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" min="1900-01-01" max="2026-01-01" name="dob" id="dob">
+                </div>
+                <br><br>
+
+                <div>
+                    <label for="yob">Year of birth</label>
+                    <input type="number" name="yob" id="yob" min="1900" max="2026">
+                </div>
+                <br><br>
+                <div>
+                    <label for="tob">Year of birth</label>
+                    <input type="time" name="tob" id="tob">
+                </div>
+                <br><br>
+                <div>
+                    <label for="color">Color</label>
+                    <input type="color" name="color" id="color">
+                </div>
+                <br><br>
+                <button type="Submit">Submit</button>
+                <!-- <input type="submit" value="Submit"> -->
+            </form>
+
+            <hr class="divider">
+        </section>
+
+        <section id="physical-location">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8087786188357!2d36.8227465!3d-1.288939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d844cb44d5%3A0x8400193d944f808f!2sKICC%2C%20Nairobi!5e0!3m2!1sen!2ske!4v1741002005459!5m2!1sen!2ske"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <hr class="divider">
+        &lt; &lt; &lt; Delicious Bites &copy; 2026. All rights reserved. &gt;&gt;
+    </footer>
+</body>
+
+</html>

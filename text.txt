@@ -1,0 +1,89 @@
+colors
+--color-primary: #1F1B2D;
+--color-secondary: #FF385C
+--color-tertiary: #77C04B;
+
+--bg-grey: #F7F8FA;
+
+Delicious Bites Restaurant
+Love at First Bite
+
+Welcome to Delicious Bites, where passion for food meets the art of culinary excellence. Since our
+inception, we've been dedicated to creating unforgettable dining experiences, combining fresh
+ingredients, bold flavors, and a warm, inviting atmosphere.
+
+Our Story
+At Delicious Bites, we believe that food is more than just sustenance—it’s a journey that brings people together. From humble beginnings as a small family-owned eatery, we’ve grown into a beloved destination for food enthusiasts who crave quality, authenticity, and creativity in every bite.
+
+Our chefs draw inspiration from global cuisines while celebrating the local flavors of our community. Every dish we serve is crafted with care, ensuring that each meal tells a story of passion, tradition, and innovation.
+
+
+===========================
+Delicious Bites Special - (grid)
+============================
+
+Delicious Bites Special
+
+Lobster Thermidor
+$29.99
+A luxurious French dish featuring tender lobster in a rich, creamy mustard sauce, topped with cheese and baked to perfection.
+
+
+Sushi Platter
+$24.99
+A delightful assortment of fresh sushi and sashimi, including salmon, tuna, and shrimp, served with soy sauce, wasabi, and pickled ginger.
+
+
+BBQ Ribs
+$18.99
+Slow-cooked, fall-off-the-bone ribs glazed in a smoky BBQ sauce, served with a side of coleslaw and crispy fries.
+
+
+Vegan Buddha Bowl
+$13.99
+A nourishing bowl packed with quinoa, chickpeas, fresh avocado, roasted sweet potatoes, and vibrant seasonal vegetables, drizzled with tahini dressing.
+
+
+Grilled Salmon
+$22.99
+Perfectly grilled salmon fillet with a lemon-butter glaze, served with garlic mashed potatoes and steamed asparagus.
+
+
+Pasta Primavera
+$16.99
+A colorful medley of fresh vegetables sauteed with olive oil and tossed with al dente pasta in a light garlic-parmesan sauce.
+
+
+===========================
+MENU - TABLE
+============================
+Appetizers
+Dish Name	Price	Description
+Garlic Bread	$4.99	Freshly baked bread with garlic butter.
+Caesar Salad	$7.49	Crisp romaine lettuce with Caesar dressing.
+Mozzarella Sticks	$6.99	Golden-fried mozzarella served with marinara.
+Spring Rolls	$5.99	Veggie-filled rolls with sweet chili sauce.
+
+Main Courses
+Dish Name	Price	Description
+Grilled Chicken	$14.99	Juicy chicken breast with herbs and spices.
+Spaghetti Bolognese	$12.99	Pasta in a rich, slow-cooked meat sauce.
+Beef Steak	$19.99	Tender, seasoned steak served with mashed potatoes.
+Vegetarian Pizza	$11.99	Wood-fired pizza topped with fresh veggies and cheese.
+
+Desserts
+Dish Name	Price	Description
+Chocolate Lava Cake	$6.99	Warm cake with molten chocolate filling.
+Cheesecake	$5.99	Creamy cheesecake with a graham cracker crust.
+Fruit Salad	$4.99	Freshly cut seasonal fruits.
+Tiramisu	$6.49	Italian coffee-flavored layered dessert.
+
+Drinks
+Drink Name	Price	Description
+Lemonade	$3.99	Freshly squeezed lemon juice with a hint of mint.
+Iced Coffee	$4.49	Chilled coffee served over ice, with or without cream.
+Smoothie	$5.99	Choice of mango, strawberry, or mixed berry.
+Sparkling Water	$2.99	Lightly carbonated water with a twist of lime.
+
+Follow us: Instagram, Youtube
+2025 Delicious Bites. All rights reserved.
