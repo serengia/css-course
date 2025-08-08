@@ -19,11 +19,19 @@ h1 {
 }
 ```
 
+<br>
+
+> <img src="course-images/css-syntax.png" height="150">
+> <br><br>
+
+<!-- <div style="border: 1px solid #2196f3; background-color: #e3f2fd; padding: 10px; border-radius: 5px;">
+<strong>ℹ️ Info:</strong> This is an informational message inside a styled box.
+</div> -->
+
 ## 2️. Selectors in CSS
 
 - **What are Selectors?** – Selectors define which HTML elements will be styled.
 - **Types of Selectors:**
-  - Universal Selector (`*`) – Selects all elements.
   - Element Selector (`h1`, `p`, `div`) – Targets specific HTML tags.
   - Class Selector (`.class-name`) – Targets elements with a specific class.
   - ID Selector (`#id-name`) – Targets a unique element by ID.
@@ -31,6 +39,7 @@ h1 {
   - Attribute Selector (`input[type="text"]`) – Targets elements with specific attributes.
   - Pseudo-classes (`:hover`, `:focus`) – Styles elements based on user interaction.
   - Pseudo-elements (`::before`, `::after`) – Inserts content before/after an element.
+  - Universal Selector (`*`) – Selects all elements.
 
 ## 3. The Cascading Nature of CSS
 
