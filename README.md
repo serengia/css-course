@@ -8,6 +8,7 @@
   - Inline CSS (Directly inside an element using `style=""`)
   - Internal CSS (Within `<style>` in `<head>`)
   - External CSS (Linked via a `.css` file) – Best practice!
+    - [Test absolute .css link](https://serengia.github.io/basic-html-course/test-styles.css)
 - **CSS Syntax** – Understanding selectors, properties, and values.
 
 ```css
@@ -21,7 +22,7 @@ h1 {
 
 <br>
 
-> <img src="course-images/css-syntax.png" height="150">
+> <img src="course-images/css-syntax.png" height="120">
 > <br><br>
 
 <!-- <div style="border: 1px solid #2196f3; background-color: #e3f2fd; padding: 10px; border-radius: 5px;">
@@ -47,7 +48,7 @@ The cascading nature of CSS refers to how CSS resolves conflicts when multiple s
 
 ### Key Factors in the Cascade
 
-#### 1. Importance (Inline Styles and `!important`)
+#### 1. Importance (Inline Styles and `!important` key word)
 
 - Inline styles (styles written directly in an element's `style` attribute) have the highest specificity.
 - The `!important` declaration overrides all other declarations (except other `!important` styles with higher specificity).
@@ -60,7 +61,7 @@ CSS rules are ranked by how specifically they target elements.
 
 1. **Inline styles** (`style="..."`) – highest specificity.
 2. **IDs** (`#id`).
-3. **Classes, attributes, and pseudo-classes** (`.class`, `[attribute]`, `:hover`).
+3. **Classes, attributes, and pseudo-classes** (`.class`, `element[attribute]`, `:hover`).
 4. **Elements and pseudo-elements** (`div`, `p`, `::before`).
 
 **Example of specificity calculation:**
@@ -134,12 +135,12 @@ Browsers apply their default styles (called **user agent styles**) if no CSS is 
 
 - **What is the Box Model?** – Every HTML element is a box with four sides: `top`, `right`, `bottom`, `left`:
 
+  ![My Image](./course-images/css-box-model.png)
+
   - **Content** – The actual text or image inside an element.
   - **Padding** – Space around the content.
   - **Border** – The outer edge surrounding the padding.
   - **Margin** – Space between elements.
-
-    ![My Image](./course-images/css-box-model.png)
 
 - **Use** `box-sizing: border-box; ` to include padding & border in total width/height.
 
@@ -175,11 +176,25 @@ Browsers apply their default styles (called **user agent styles**) if no CSS is 
 
 - **Different Positioning Methods:**
   - `static` – Default (normal document flow)
-  - `relative` – Positions relative to its normal position
-  - `absolute` – Positions relative to the nearest positioned ancestor
+  - `relative` – Positions an element relative to its normal position
+  - `absolute` – Positions an element relative to their nearest ancestor with a position property (eg. `position: relative;`)
   - `fixed` – Stays fixed relative to the viewport
   - `sticky` – Sticks to a position while scrolling
 - **`Z-index`** – Controls overlapping of elements.
+
+But there is a gotcha with z-index, it only works on elements that have a positioning context other than the default static.
+
+Meaning: If you just do
+
+```css
+div {
+  z-index: 10;
+}
+```
+
+and that div is not position: `relative;`, `absolute;`, `fixed;`, or `sticky;` — the z-index won’t have any effect.
+
+By default, all elements are `position: static;`, and in that case, z-index is ignored.
 
 ## 8. CSS Flexbox (For Responsive Layouts)
 
